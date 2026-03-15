@@ -75,7 +75,7 @@ Voltage divider configuration:
 | LDR Bottom | GPIO34 |
 | 10k Resistor | GPIO34 → GND |
 
-This allows brightness to be read using: analogReadGPIO34
+This allows brightness to be read using: analogRead(GPIO34) 
 
 ---
 
