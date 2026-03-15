@@ -135,6 +135,24 @@ Type: Active buzzer
 Module recommendation: DS3231 RTC
 
 ---
+## Installation
+
+1. Install Arduino IDE
+2. Install ESP32 board support
+3. Install the TM1637Display library
+4. Open `Code_Sketch.ino`
+5. Edit WiFi credentials
+6. Upload to ESP32
+
+---
+
+## Libraries Used
+
+- WiFi (built-in)
+- time.h (built-in)
+- TM1637Display
+
+---
 
 ## Notes
 
@@ -147,6 +165,6 @@ Module recommendation: DS3231 RTC
 
 ---
 
-##Visual Layout
+## Visual Layout
 Wokwi Project Link: https://wokwi.com/projects/458529261643797505
 (I apologize for messy wiring layout, I haven't included some of the peripherals since Wokwi doesn't have them, and choosing alternative components might confuse people) 
