@@ -27,6 +27,17 @@ A DIY ESP32-based digital clock with NTP synchronization, dual 7-segment display
 - UPS module + 18650 battery
 - perfboard construction
 
+## Project Status
+
+This project is currently experimental and built on perfboards.
+
+Future improvements may include:
+
+- RTC backup support
+- PCB version
+- improved button controls
+- enclosure design
+
 ## Wiring
 
 | Component | ESP32 Pin |
